@@ -51,7 +51,7 @@ class Ajax {
 	public function handle()
 	{
 		// create the request object
-		$request = $this->framework->make('request');
+		$request = Request::createFromGlobals();
 		// die and call the callback and pass on the request object
 		die( call_user_func($this->callback, $request) );
 	}
