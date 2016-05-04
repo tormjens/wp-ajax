@@ -1,5 +1,5 @@
 <?php
-namespace TorMorten\WordPress\Http
+namespace TorMorten\WordPress\Http;
 use Symfony\Component\HttpFoundation\Request;
 /**
  * Class to perform WordPress ajax requests
