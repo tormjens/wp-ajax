@@ -1,0 +1,18 @@
+{
+	"name": "tormorten/wp-ajax",
+	"authors": [
+		{
+			"name": "Tor Morten Jensen",
+			"email": "tormorten@tormorten.no"
+		}
+	],
+	"minimum-stability": "dev",
+	"autoload" : {
+		"psr-0": {
+			"TorMorten\\WordPress\\Http" : "src/"
+		}
+	},
+	"require": {
+		"symfony/http-foundation": "^3.0"
+	}
+}
