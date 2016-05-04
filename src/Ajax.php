@@ -22,7 +22,7 @@ class Ajax {
 	/**
 	 * Constructor
 	 */
-	public function __construct() {
+	public function __construct($action, $callback) {
 		$this->action = $action;
 		$this->callback = $callback;
 		$this->actions();
